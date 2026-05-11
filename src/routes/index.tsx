@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo, useRef, useState } from "react";
-import heroImg from "@/assets/aditiri-hero.jpg";
 import sleepImg from "@/assets/aditiri-sleep.jpg";
 
 export const Route = createFileRoute("/")({
