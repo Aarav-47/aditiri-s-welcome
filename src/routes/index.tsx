@@ -375,7 +375,7 @@ function PreInvitation() {
                   animate={{ opacity: 1, y: 0 }}
                   className={
                     idx === 1
-                      ? "font-script text-4xl sm:text-5xl gold-text"
+                      ? "font-script text-4xl sm:text-5xl gold-text leading-[1.4] py-2"
                       : idx === 3
                       ? "font-display italic text-xl sm:text-2xl text-foreground/80"
                       : "font-display text-2xl sm:text-3xl text-foreground"
@@ -537,7 +537,7 @@ function Envelope({ open, onOpen }: { open: boolean; onOpen: () => void }) {
           animate={open ? { y: -50, opacity: 1 } : { y: 0, opacity: 0 }}
           transition={{ delay: 1.0, duration: 0.9, ease: "easeOut" }}
           className="absolute inset-x-4 top-4 bottom-6 rounded-xl bg-cream shadow-soft p-4 flex flex-col items-center justify-center text-center"
-          style={{ border: "1px solid var(--gold-soft)" }}
+          style={{ border: "1px solid var(--gold-soft)", zIndex: 20 }}
         >
           <p className="font-script text-2xl gold-text">You're lovingly invited to</p>
           <h2 className="font-display text-2xl sm:text-3xl text-foreground mt-1 leading-tight">
