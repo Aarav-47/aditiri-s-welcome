@@ -375,7 +375,7 @@ function PreInvitation() {
                   animate={{ opacity: 1, y: 0 }}
                   className={
                     idx === 1
-                      ? "font-script text-4xl sm:text-5xl gold-text"
+                      ? "font-script text-4xl sm:text-5xl gold-text leading-[1.4] py-2"
                       : idx === 3
                       ? "font-display italic text-xl sm:text-2xl text-foreground/80"
                       : "font-display text-2xl sm:text-3xl text-foreground"
