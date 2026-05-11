@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo, useRef, useState } from "react";
-import sleepImg from "@/assets/aditiri-sleep.jpg";
+import sleepImg from "@/assets/aditiri-new.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -498,7 +498,7 @@ function PreInvitation() {
       </section>
 
       <footer className="relative z-10 pb-4 text-center text-xs text-muted-foreground">
-        With love · 19 May 2026 · Patna
+        ​
       </footer>
     </main>
   );
